@@ -1,0 +1,40 @@
+html,body{
+    background-color: rgb(238, 221, 224);
+}
+.main{
+    width: 98.7vw;
+    font-family: sans-serif;
+    background-color: rgb(238, 221, 224);
+}
+header{
+    height: 9vh;
+}
+nav{
+    height: 8vh;
+    background-color: rgba(150, 147, 147,0.3);
+}
+nav ul li {
+    padding: 0px 10px;
+    list-style: none;
+}
+.content1 img{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.content2 p{
+    font-size: 15px;
+}
+.content3 li{
+    list-style: none;
+}
+.content3 li::before{
+    
+   content: "";
+   height: 15px;
+   width: 15px;
+   display: inline-block;
+   margin-top: 5px;
+   margin-right: 10px;
+   background-image: url(images/list.png);
+   background-size: cover;
+}
