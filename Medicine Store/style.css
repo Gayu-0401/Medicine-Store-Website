@@ -2,7 +2,7 @@ html,body{
     background-color: rgb(238, 221, 224);
 }
 .main{
-    width: 98.7vw;
+    max-width: 98.7vw;
     font-family: sans-serif;
     background-color: rgb(238, 221, 224);
 }
